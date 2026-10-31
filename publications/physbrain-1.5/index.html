@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PhysBrain 1.5: From Vision-Language Models to Physical Foundation Models | Zubin Zheng</title>
+<meta name="description" content="We present PhysBrain 1.5, a unified model for understanding physical environments, generating actions, and predicting future states. Motivated by the physical loop of observation, interactio">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://0sliverbullet.github.io/publications/physbrain-1.5/">
+<meta property="og:title" content="PhysBrain 1.5: From Vision-Language Models to Physical Foundation Models | Zubin Zheng">
+<meta property="og:description" content="We present PhysBrain 1.5, a unified model for understanding physical environments, generating actions, and predicting future states. Motivated by the physical loop of observation, interactio">
+<meta property="og:url" content="https://0sliverbullet.github.io/publications/physbrain-1.5/">
+<meta property="og:type" content="website">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/assets/style.css">
+<meta name="citation_title" content="PhysBrain 1.5: From Vision-Language Models to Physical Foundation Models">
+<meta name="citation_publication_date" content="2026/09/14">
+<meta name="citation_author" content="DeepCybo Team">
+<meta name="citation_author" content="Yu Bin">
+<meta name="citation_author" content="Haipeng Cao">
+<meta name="citation_author" content="Zheng Chang">
+<meta name="citation_author" content="Kai Chen">
+<meta name="citation_author" content="Youning Chen">
+<meta name="citation_author" content="Kailin Deng">
+<meta name="citation_author" content="Yichao Du">
+<meta name="citation_author" content="Xiaotong Fu">
+<meta name="citation_author" content="Haoyang Ge">
+<meta name="citation_author" content="Yunlong Guo">
+<meta name="citation_author" content="Chenliu Hao">
+<meta name="citation_author" content="Jiyan He">
+<meta name="citation_author" content="Xuguo He">
+<meta name="citation_author" content="Yakun Hou">
+<meta name="citation_author" content="Kai Hu">
+<meta name="citation_author" content="Cong Huang">
+<meta name="citation_author" content="Tuopusen Huang">
+<meta name="citation_author" content="Yu Huang">
+<meta name="citation_author" content="Hong Li">
+<meta name="citation_author" content="Peize Li">
+<meta name="citation_author" content="Shijie Lian">
+<meta name="citation_author" content="Xiaopeng Lin">
+<meta name="citation_author" content="Yun Lin">
+<meta name="citation_author" content="Haibao Liu">
+<meta name="citation_author" content="Haochen Liu">
+<meta name="citation_author" content="Qiuzhi Liu">
+<meta name="citation_author" content="Shengcai Liu">
+<meta name="citation_author" content="Zhiqiang Liu">
+<meta name="citation_author" content="Tao Luo">
+<meta name="citation_author" content="Peng Ren">
+<meta name="citation_author" content="Shuo Ren">
+<meta name="citation_author" content="Chaoyi Ruan">
+<meta name="citation_author" content="Zhaolong Shen">
+<meta name="citation_author" content="Yukun Shi">
+<meta name="citation_author" content="Qiyuan Su">
+<meta name="citation_author" content="Yuxuan Tian">
+<meta name="citation_author" content="Yining Wang">
+<meta name="citation_author" content="Changti Wu">
+<meta name="citation_author" content="Hao Wu">
+<meta name="citation_author" content="Xueyin Xu">
+<meta name="citation_author" content="Ruoqi Yang">
+<meta name="citation_author" content="Zhaoyang Yang">
+<meta name="citation_author" content="Hang Yuan">
+<meta name="citation_author" content="Zhaoyang Zeng">
+<meta name="citation_author" content="Hanwen Zhang">
+<meta name="citation_author" content="Ruimeng Zhang">
+<meta name="citation_author" content="Yao Zhang">
+<meta name="citation_author" content="Yibo Zhang">
+<meta name="citation_author" content="Yuxiang Zhang">
+<meta name="citation_author" content="Zhirui Zhang">
+<meta name="citation_author" content="Ziyi Zhang">
+<meta name="citation_author" content="Zubin Zheng">
+<meta name="citation_author" content="Zishen Zhuang">
+<meta name="citation_technical_report_institution" content="DeepCybo">
+<meta name="citation_doi" content="10.48550/arXiv.2609.14973">
+<meta name="citation_arxiv_id" content="2609.14973">
+<meta name="citation_pdf_url" content="https://0sliverbullet.github.io/publications/physbrain-1.5/paper.pdf">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "headline": "PhysBrain 1.5: From Vision-Language Models to Physical Foundation Models", "name": "PhysBrain 1.5: From Vision-Language Models to Physical Foundation Models", "datePublished": "2026-09-14", "url": "https://0sliverbullet.github.io/publications/physbrain-1.5/", "abstract": "We present PhysBrain 1.5, a unified model for understanding physical environments, generating actions, and predicting future states. Motivated by the physical loop of observation, interaction, and environmental change, we bring these capabilities into a common learning framework. Starting from a general vision–language model, we encode language responses, end-effector motion, and dense visual targets as discrete sequences and jointly optimize them with autoregressive next-token prediction. Pre-training draws its embodied supervision entirely from human interaction videos, using task-centered episodes to pair semantic and spatial context with recovered motion and subsequent observations. We then adapt the model through supervised fine-tuning on a mixture of human demonstrations, robot trajectories, and simulated experience. Across 28 embodied understanding benchmarks, our 8B model achieves an average score of 72.5, setting a new open-source state of the art and performing on par with leading proprietary models such as GPT-6-Astra and Gemini 3.6 Flash. It achieves the best open-source results on 14 benchmarks while retaining general multimodal capabilities. Beyond these understanding evaluations, qualitative examples show the model's ability to produce end-effector trajectories and predict future scenes through spatially aligned RGB, depth, and robot-mask outputs.", "author": [{"@type": "Organization", "name": "DeepCybo Team"}, {"@type": "Person", "name": "Yu Bin"}, {"@type": "Person", "name": "Haipeng Cao"}, {"@type": "Person", "name": "Zheng Chang"}, {"@type": "Person", "name": "Kai Chen"}, {"@type": "Person", "name": "Youning Chen"}, {"@type": "Person", "name": "Kailin Deng"}, {"@type": "Person", "name": "Yichao Du"}, {"@type": "Person", "name": "Xiaotong Fu"}, {"@type": "Person", "name": "Haoyang Ge"}, {"@type": "Person", "name": "Yunlong Guo"}, {"@type": "Person", "name": "Chenliu Hao"}, {"@type": "Person", "name": "Jiyan He"}, {"@type": "Person", "name": "Xuguo He"}, {"@type": "Person", "name": "Yakun Hou"}, {"@type": "Person", "name": "Kai Hu"}, {"@type": "Person", "name": "Cong Huang"}, {"@type": "Person", "name": "Tuopusen Huang"}, {"@type": "Person", "name": "Yu Huang"}, {"@type": "Person", "name": "Hong Li"}, {"@type": "Person", "name": "Peize Li"}, {"@type": "Person", "name": "Shijie Lian"}, {"@type": "Person", "name": "Xiaopeng Lin"}, {"@type": "Person", "name": "Yun Lin"}, {"@type": "Person", "name": "Haibao Liu"}, {"@type": "Person", "name": "Haochen Liu"}, {"@type": "Person", "name": "Qiuzhi Liu"}, {"@type": "Person", "name": "Shengcai Liu"}, {"@type": "Person", "name": "Zhiqiang Liu"}, {"@type": "Person", "name": "Tao Luo"}, {"@type": "Person", "name": "Peng Ren"}, {"@type": "Person", "name": "Shuo Ren"}, {"@type": "Person", "name": "Chaoyi Ruan"}, {"@type": "Person", "name": "Zhaolong Shen"}, {"@type": "Person", "name": "Yukun Shi"}, {"@type": "Person", "name": "Qiyuan Su"}, {"@type": "Person", "name": "Yuxuan Tian"}, {"@type": "Person", "name": "Yining Wang"}, {"@type": "Person", "name": "Changti Wu"}, {"@type": "Person", "name": "Hao Wu"}, {"@type": "Person", "name": "Xueyin Xu"}, {"@type": "Person", "name": "Ruoqi Yang"}, {"@type": "Person", "name": "Zhaoyang Yang"}, {"@type": "Person", "name": "Hang Yuan"}, {"@type": "Person", "name": "Zhaoyang Zeng"}, {"@type": "Person", "name": "Hanwen Zhang"}, {"@type": "Person", "name": "Ruimeng Zhang"}, {"@type": "Person", "name": "Yao Zhang"}, {"@type": "Person", "name": "Yibo Zhang"}, {"@type": "Person", "name": "Yuxiang Zhang"}, {"@type": "Person", "name": "Zhirui Zhang"}, {"@type": "Person", "name": "Ziyi Zhang"}, {"@type": "Person", "name": "Zubin Zheng"}, {"@type": "Person", "name": "Zishen Zhuang"}], "encoding": {"@type": "MediaObject", "encodingFormat": "application/pdf", "contentUrl": "https://0sliverbullet.github.io/publications/physbrain-1.5/paper.pdf"}, "identifier": "https://doi.org/10.48550/arXiv.2609.14973"}</script></head><body>
+<a class="skip-link" href="#main">Skip to content</a><div class="wrap paper-wrap"><header class="paper-header"><a class="paper-brand" href="/">Zubin Zheng</a><nav aria-label="Main"><a href="/#publications">← Publications</a></nav></header><main id="main" class="paper-content"><p class="paper-meta">Technical report <span aria-hidden="true">·</span> <time datetime="2026-09-14">2026-09-14</time></p><h1>PhysBrain 1.5: From Vision-Language Models to Physical Foundation Models</h1><p class="paper-authors">DeepCybo Team</p><div class="resource-links"><a href="/publications/physbrain-1.5/paper.pdf">PDF</a><a href="https://arxiv.org/abs/2609.14973">arXiv</a><a href="https://github.com/DeepCybo-PhysAI/PhysBrainEvalKit">Evaluation Kit</a><a href="/publications/physbrain-1.5/citation.bib">BibTeX</a></div><section class="abstract" aria-labelledby="abstract"><h2 id="abstract">Abstract</h2><p>We present PhysBrain 1.5, a unified model for understanding physical environments, generating actions, and predicting future states. Motivated by the physical loop of observation, interaction, and environmental change, we bring these capabilities into a common learning framework. Starting from a general vision–language model, we encode language responses, end-effector motion, and dense visual targets as discrete sequences and jointly optimize them with autoregressive next-token prediction. Pre-training draws its embodied supervision entirely from human interaction videos, using task-centered episodes to pair semantic and spatial context with recovered motion and subsequent observations. We then adapt the model through supervised fine-tuning on a mixture of human demonstrations, robot trajectories, and simulated experience. Across 28 embodied understanding benchmarks, our 8B model achieves an average score of 72.5, setting a new open-source state of the art and performing on par with leading proprietary models such as GPT-6-Astra and Gemini 3.6 Flash. It achieves the best open-source results on 14 benchmarks while retaining general multimodal capabilities. Beyond these understanding evaluations, qualitative examples show the model&#x27;s ability to produce end-effector trajectories and predict future scenes through spatially aligned RGB, depth, and robot-mask outputs.</p></section><section class="paper-section" aria-labelledby="authors"><h2 id="authors">Authors</h2><p class="full-authors">DeepCybo Team, Yu Bin, Haipeng Cao, Zheng Chang, Kai Chen, Youning Chen, Kailin Deng, Yichao Du, Xiaotong Fu, Haoyang Ge, Yunlong Guo, Chenliu Hao, Jiyan He, Xuguo He, Yakun Hou, Kai Hu, Cong Huang, Tuopusen Huang, Yu Huang, Hong Li, Peize Li, Shijie Lian, Xiaopeng Lin, Yun Lin, Haibao Liu, Haochen Liu, Qiuzhi Liu, Shengcai Liu, Zhiqiang Liu, Tao Luo, Peng Ren, Shuo Ren, Chaoyi Ruan, Zhaolong Shen, Yukun Shi, Qiyuan Su, Yuxuan Tian, Yining Wang, Changti Wu, Hao Wu, Xueyin Xu, Ruoqi Yang, Zhaoyang Yang, Hang Yuan, Zhaoyang Zeng, Hanwen Zhang, Ruimeng Zhang, Yao Zhang, Yibo Zhang, Yuxiang Zhang, Zhirui Zhang, Ziyi Zhang, <strong>Zubin Zheng</strong>, Zishen Zhuang</p></section><section class="paper-section"><details><summary class="citation-summary">Cite this paper</summary><pre class="bibtex">@misc{deepcybo2026physbrain15,
+  title = {{PhysBrain 1.5: From Vision-Language Models to Physical Foundation Models}},
+  author = {{DeepCybo Team} and Yu Bin and Haipeng Cao and Zheng Chang and Kai Chen and Youning Chen and Kailin Deng and Yichao Du and Xiaotong Fu and Haoyang Ge and Yunlong Guo and Chenliu Hao and Jiyan He and Xuguo He and Yakun Hou and Kai Hu and Cong Huang and Tuopusen Huang and Yu Huang and Hong Li and Peize Li and Shijie Lian and Xiaopeng Lin and Yun Lin and Haibao Liu and Haochen Liu and Qiuzhi Liu and Shengcai Liu and Zhiqiang Liu and Tao Luo and Peng Ren and Shuo Ren and Chaoyi Ruan and Zhaolong Shen and Yukun Shi and Qiyuan Su and Yuxuan Tian and Yining Wang and Changti Wu and Hao Wu and Xueyin Xu and Ruoqi Yang and Zhaoyang Yang and Hang Yuan and Zhaoyang Zeng and Hanwen Zhang and Ruimeng Zhang and Yao Zhang and Yibo Zhang and Yuxiang Zhang and Zhirui Zhang and Ziyi Zhang and Zubin Zheng and Zishen Zhuang},
+  year = {2026},
+  eprint = {2609.14973},
+  archivePrefix = {arXiv},
+  doi = {10.48550/arXiv.2609.14973},
+  url = {https://arxiv.org/abs/2609.14973}
+}
+</pre></details></section></main><footer class="page-footer"><a href="/#publications">All publications</a></footer></div></body></html>
